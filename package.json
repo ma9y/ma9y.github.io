@@ -4,14 +4,19 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "start": "eleventy --serve",
-    "build": "eleventy"
+    "start": "eleventy --serve & npx tailwindcss -i ./views/assets/css/tailwind.css -o ./dist/assets/css/style.css --watch",
+    "build": "eleventy && npx tailwindcss -i ./views/assets/css/tailwind.css -o ./dist/assets/css/style.css --minify",
+    "running": "node scripts/running.js"
   },
   "keywords": [],
   "author": "",
   "license": "ISC",
   "type": "module",
   "dependencies": {
-    "@11ty/eleventy": "^3.1.0"
+    "@11ty/eleventy": "^3.1.0",
+    "@tailwindcss/cli": "^4.1.7",
+    "dotenv": "^16.5.0",
+    "googleapis": "^148.0.0",
+    "tailwindcss": "^4.1.7"
   }
 }

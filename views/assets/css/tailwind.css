@@ -1,0 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Bitter:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+
+@theme {
+  --font-bitter: "Bitter", sans-serif; 
+}
+
+.wrapper {
+    @apply max-w-3xl m-auto px-3;
+  }
+
+  .text p {
+    @apply pb-2;
+  }

@@ -1,0 +1,28 @@
+<table class="w-15/16 mx-auto text-center mt-2 text-[15px]">
+  <tr class="font-normal">
+    <th>Týden</th>
+    <th>Km</th>
+    <th>Tempo</th>
+    <th>Avg HR</th>
+    <th>Kopce</th>
+    <th class="hidden sm:table-cell">Váha</th>
+  </tr>
+  <tr class="text-gray-600 dark:text-gray-400 italic border-b border-gray-300 dark:border-gray-700">
+    <td>#</td>
+    <td>km</td>
+    <td>min/km</td>
+    <td>bpm</td>
+    <td>m</td>
+    <td class="hidden sm:table-cell">kg</td>
+  </tr>
+  {% for item in weekly | reverse %}
+  <tr class="border-b border-gray-300 dark:border-gray-700">
+    <td>{{ item.Week }}</td>
+    <td>{{ item.Distance }}</td>
+    <td>{{ item.Pace }}</td>
+    <td>{{ item.AvgHR }}</td>
+    <td>{{ item.Ascent }}</td>
+    <td class="hidden sm:table-cell">{{ item.Weight }}</td>
+  </tr>
+  {% endfor %}
+</table>

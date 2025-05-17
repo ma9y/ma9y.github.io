@@ -1,0 +1,30 @@
+[
+  {
+    "Week": "19",
+    "Date": "2025-05-05",
+    "Distance": "6.6",
+    "Duration": "00:45:05",
+    "Pace": "06:50",
+    "AvgHR": "144",
+    "Ascent": "65",
+    "Cadence": "158",
+    "Calories": "484",
+    "Weight": "85.4",
+    "BodyFat": "32.6",
+    "id": null
+  },
+  {
+    "Week": "20",
+    "Date": "2025-05-12",
+    "Distance": "15.7",
+    "Duration": "01:49:38",
+    "Pace": "07:00",
+    "AvgHR": "148",
+    "Ascent": "161",
+    "Cadence": "156",
+    "Calories": "1197",
+    "Weight": "85.2",
+    "BodyFat": "32.5",
+    "id": null
+  }
+]
