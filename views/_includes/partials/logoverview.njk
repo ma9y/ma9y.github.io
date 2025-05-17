@@ -17,7 +17,11 @@
   </tr>
   {% for item in weekly | reverse %}
   <tr class="border-b border-gray-300 dark:border-gray-700">
+    {% if item.id %}
+    <td><a href="/{{ item.id }}">{{ item.Week }}</a></td>
+    {% else %}
     <td>{{ item.Week }}</td>
+    {% endif %}
     <td>{{ item.Distance }}</td>
     <td>{{ item.Pace }}</td>
     <td>{{ item.AvgHR }}</td>

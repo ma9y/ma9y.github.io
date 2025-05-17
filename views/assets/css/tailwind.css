@@ -3,13 +3,17 @@
 @custom-variant dark (&:where(.dark, .dark *));
 
 @theme {
-  --font-bitter: "Bitter", sans-serif; 
+  --font-bitter: "Bitter", sans-serif;
 }
 
 .wrapper {
-    @apply max-w-3xl m-auto px-3;
-  }
+  @apply max-w-3xl m-auto px-3;
+}
 
-  .text p {
-    @apply pb-2;
-  }
+.text p {
+  @apply pb-2;
+}
+
+a {
+  @apply text-sky-500 dark:text-sky-500;
+}
