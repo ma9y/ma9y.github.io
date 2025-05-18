@@ -28,8 +28,8 @@ export default function (eleventyConfig) {
 	});
 
     // FILTERS
-    eleventyConfig.addFilter("postDate", (dateObj, format = "LLL d, yyyy") => {
-        return DateTime.fromJSDate(dateObj).toFormat(format);
+    eleventyConfig.addFilter("postDate", (dateObj, format = "DDD", locale = "cs") => {
+        return DateTime.fromJSDate(dateObj).setLocale(locale).toFormat(format);
     });
 
 };
