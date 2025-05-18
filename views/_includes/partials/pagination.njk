@@ -1,0 +1,18 @@
+{% set previousPost = collections.post | getPreviousCollectionItem %}
+{% set nextPost = collections.post | getNextCollectionItem %}
+
+
+<div class="flex justify-between mt-4">
+<div class="font-semibold uppercase text-sm">
+{% if previousPost %}
+<a href="{{ previousPost.url }}">Předchozí</a>
+{% endif %}
+</div>
+
+<div class="font-semibold uppercase text-sm">
+{% if nextPost %}
+<a href="{{ nextPost.url }}">Další</a>
+{% endif %}
+</div>
+
+</div>
