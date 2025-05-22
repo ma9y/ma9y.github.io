@@ -32,6 +32,13 @@ export default function (eleventyConfig) {
         return DateTime.fromJSDate(dateObj).setLocale(locale).toFormat(format);
     });
 
+	// EXCERPTS
+	eleventyConfig.setFrontMatterParsingOptions({
+		excerpt: true,
+		// Optional, default is "---"
+		excerpt_separator: "<!-- excerpt -->",
+	});
+
 };
 
 export const config = {
