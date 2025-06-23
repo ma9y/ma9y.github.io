@@ -1,23 +1,28 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link href="/assets/css/style.css" rel="stylesheet"> 
-    <title>{{ title }}</title> 
-  </head>
-  <body class="bg-amber-200 text-gray-900 flex min-h-dvh">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <link href="/assets/css/style.css" rel="stylesheet">
+  <title>{{ title }}</title>
+</head>
+
+<body class="bg-amber-200 text-gray-900 flex min-h-dvh">
   <main class="flex flex-1">
     <div class="w-10/12 mx-auto mt-40">
       <h1 class="text-lg font-semibold">Fanda</h1>
-      <a href="/" class="text-blue-500 font-semibold text-sm uppercase">blog</a> |
       <a href="/" class="text-blue-500 font-semibold text-sm uppercase">log</a> |
-      <a href="https://bsky.app/profile/ma9y.net" target="_blank" class="text-blue-500 font-semibold text-sm uppercase">bluesky</a> 
-      {% block content %}
-      {{ content | safe }}
-      {% endblock %}
+      <a href="https://github.com/ma9y" target="_blank" class="text-blue-500 font-semibold text-sm uppercase">github</a> |
+      <a href="https://bsky.app/profile/ma9y.net" target="_blank" class="text-blue-500 font-semibold text-sm uppercase">bsky</a>
+      <div class="max-w-xl pt-4">
+        {% block content %}
+        {{ content | safe }}
+        {% endblock %}
+      </div>
     </div>
   </main>
-  </body>
+</body>
+
 </html>
