@@ -7,11 +7,17 @@
     <link href="/assets/css/style.css" rel="stylesheet"> 
     <title>{{ title }}</title> 
   </head>
-  <body>
-    <main>
+  <body class="bg-amber-200 text-gray-900 flex min-h-dvh">
+  <main class="flex flex-1">
+    <div class="w-10/12 mx-auto mt-40">
+      <h1 class="text-lg font-semibold">Fanda</h1>
+      <a href="/" class="text-blue-500 font-semibold text-sm uppercase">blog</a> |
+      <a href="/" class="text-blue-500 font-semibold text-sm uppercase">log</a> |
+      <a href="https://bsky.app/profile/ma9y.net" target="_blank" class="text-blue-500 font-semibold text-sm uppercase">bluesky</a> 
       {% block content %}
       {{ content | safe }}
-      {% endblock %}    
-    </main>
+      {% endblock %}
+    </div>
+  </main>
   </body>
 </html>
