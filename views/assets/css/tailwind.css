@@ -3,3 +3,7 @@
 .wrapper {
     @apply w-11/12 max-w-3xl mx-auto;
 }
+
+a {
+    @apply text-blue-400 font-semibold;
+}
