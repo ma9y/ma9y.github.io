@@ -1,9 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Syne+Mono&family=Ubuntu+Mono:ital,wght@0,400;0,700;1,400;1,700&display=swap');
 @import "tailwindcss";
+
+@theme {
+  --font-syne: "Syne Mono", "sans-serif";
+  --font-monoU: "Ubuntu Mono", monospace;
+}
 
 .wrapper {
     @apply w-11/12 max-w-3xl mx-auto;
 }
 
-a {
-    @apply text-blue-400 font-semibold;
+header a {
+    @apply text-lg font-semibold;
+}
+
+.text p {
+    @apply pb-3;
 }

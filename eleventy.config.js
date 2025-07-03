@@ -1,7 +1,20 @@
+import { DateTime } from "luxon";
+import 'dotenv/config'
+
 export default function (eleventyConfig) {
     
     eleventyConfig.addPassthroughCopy("views/assets/img");
     eleventyConfig.addPassthroughCopy("views/assets/js");
+
+    // PLUGINS
+    eleventyConfig.addFilter("postDate", (dateObj, format = "LLL d") => {
+        return DateTime.fromJSDate(dateObj).toFormat(format);
+    });
+
+    eleventyConfig.addFilter("postDate2", (dateObj, format = "LLL d") => {
+        return DateTime.fromISO(dateObj).toFormat(format);
+    });
+
 };
 
 export const config = {

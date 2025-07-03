@@ -1,0 +1,31 @@
+{% extends "views/_layouts/base.njk" %}
+
+{% block content %}
+
+<table class="w-11/12 md:w-2xl mx-auto">
+  <thead>
+    <tr>
+      <th>Date</th>
+      <th>Distance</th>
+      <th>Pace</th>
+      <th>Avg HR</th>
+      <th>Ascent</th>
+    </tr>
+  </thead>
+  <tbody>
+    {% for activity in strava %}
+      {% if activity.type == "Run" %}
+        <tr class="text-center">
+          <td>{{ activity.date | postDate2("MMM d") }}</td>
+          <td>{{ activity.distance | round(1) }}</td>
+          <td>{{ activity.pace }}</td>
+          <td>{{ activity.average_heartrate | round }}</td>
+          <td>{{ activity.ascent }}</td>
+        </tr>
+      {% endif %}
+    {% endfor %}
+  </tbody>
+</table>
+
+
+{% endblock %}

@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "eleventy --serve & npx tailwindcss -i ./views/assets/css/tailwind.css -o ./dist/assets/css/style.css --watch",
-    "build": "eleventy && npx tailwindcss -i ./views/assets/css/tailwind.css -o ./dist/assets/css/style.css --minify"
+    "build": "eleventy && npx tailwindcss -i ./views/assets/css/tailwind.css -o ./dist/assets/css/style.css --minify",
+     "strava": "node scripts/strava.js"
   },
   "keywords": [],
   "author": "",
@@ -14,6 +15,8 @@
   "dependencies": {
     "@11ty/eleventy": "^3.1.1",
     "@tailwindcss/cli": "^4.1.10",
+    "dotenv": "^17.0.1",
+    "luxon": "^3.6.1",
     "tailwindcss": "^4.1.10"
   }
 }

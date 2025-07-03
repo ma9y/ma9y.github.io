@@ -1,14 +1,9 @@
 ---
-title: ma9y.net
+title: ma9y
 layout: base
 ---
-{% set posts = collections.post %}
+Poznámky a běžecký log.
 
-{% for post in posts %}
-
-<a href="{{ post.url }}">{{ post.data.title }}</a>
-
-{% endfor %}
 
 
 
