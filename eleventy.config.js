@@ -15,6 +15,9 @@ export default function (eleventyConfig) {
         return DateTime.fromISO(dateObj).toFormat(format);
     });
 
+    // SHORTCODES
+    eleventyConfig.addShortcode("year", () => `${new Date().getFullYear()}`);
+
 };
 
 export const config = {

@@ -1,5 +1,23 @@
 [
   {
+    "id": 14994946357,
+    "name": "Afternoon Run",
+    "date": "2025-07-03T16:16:39Z",
+    "type": "Run",
+    "distance": "2.78",
+    "moving_time": "00:18:43",
+    "pace": "6:44",
+    "max_pace": "5:09",
+    "average_speed": "8.9",
+    "max_speed": "11.7",
+    "average_heartrate": 147.5,
+    "max_heartrate": 165,
+    "ascent": 30,
+    "elev_high": 320,
+    "elev_low": 304,
+    "summary_polyline": "qdnrHsac~AJkCDWLMP@l@r@ZV`@DTP\\HNEFc@X_EPk@C_B@]BILKrAc@j@i@Xa@FQf@yBHo@Jc@DkBAa@@y@Ek@OeCMyA[cEU{E]iDCk@Dm@Jk@Pm@De@?iAJ}CLqJEyCT}EAaAH_C?EEGAD@hAExCATE\\Ad@@JIt@BvDAl@C\\@r@C\\KxGKjEOn@M|@C^CHKBIEMMM]GEO@GEMEY@QDECG?QLe@IIPI`@CNC`BC`FE~@ObBQt@_@nAQv@c@vLo@xFKj@G`AAb@Bj@DTNXTn@Hj@?~@Gv@GrA"
+  },
+  {
     "id": 14949350612,
     "name": "Morning Run",
     "date": "2025-06-29T09:44:58Z",
