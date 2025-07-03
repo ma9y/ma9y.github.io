@@ -13,16 +13,23 @@
     </tr>
   </thead>
   <tbody>
+    <tr class="text-center italic text-stone-400 border-b-1 border-b-stone-300">
+      <td>date</td>
+      <td>km</td>
+      <td>min/km</td>
+      <td>bpm</td>
+      <td>m</td>
+    </tr>
     {% for activity in strava %}
-      {% if activity.type == "Run" %}
-        <tr class="text-center">
-          <td>{{ activity.date | postDate2("MMM d") }}</td>
-          <td>{{ activity.distance | round(1) }}</td>
-          <td>{{ activity.pace }}</td>
-          <td>{{ activity.average_heartrate | round }}</td>
-          <td>{{ activity.ascent }}</td>
-        </tr>
-      {% endif %}
+    {% if activity.type == "Run" %}
+    <tr class="text-center">
+      <td>{{ activity.date | postDate2("MMM d") }}</td>
+      <td>{{ activity.distance | round(1) }}</td>
+      <td>{{ activity.pace }}</td>
+      <td>{{ activity.average_heartrate | round }}</td>
+      <td>{{ activity.ascent }}</td>
+    </tr>
+    {% endif %}
     {% endfor %}
   </tbody>
 </table>
