@@ -1,5 +1,26 @@
 [
   {
+    "id": 15017303074,
+    "name": "Evening Run",
+    "date": "2025-07-05T18:57:57Z",
+    "type": "Run",
+    "distance": "3.17",
+    "moving_time": "00:21:57",
+    "pace": "6:55",
+    "max_pace": "5:07",
+    "average_speed": "8.7",
+    "max_speed": "11.7",
+    "average_heartrate": 150.7,
+    "max_heartrate": 168,
+    "ascent": 33,
+    "elev_high": 322,
+    "elev_low": 302.8,
+    "summary_polyline": "mdnrHabc~A@_@FYBy@Dc@BELIfApALDR@r@VH@RGDIFUZ_EDqBCe@@UFOLGbBk@PKRSRc@Tw@X}AFg@FYAcABw@EeCYgDY{D]oHYmCEm@PoANs@Dy@\\mPE{DP{DFiFAqAR}D@u@Hi@JMZKr@OPI@CCCEHMF}@RKFIJGPCVGdBOfDBx@Ah@IxEMrCBdE]bQAV]nBEf@@FABSCSSO[O?OIUE]FOCYL]GMVE`@GbBA`DEzBIdASnAa@pAWpAEfCQ`DIpBUhCe@nDEp@E^A`@Ff@Zx@NZDLBZ@bAQjC",
+    "max_watts": 392,
+    "average_watts": 303.8,
+    "average_cadence": 79.1
+  },
+  {
     "id": 14994946357,
     "name": "Afternoon Run",
     "date": "2025-07-03T16:16:39Z",

@@ -3,26 +3,26 @@
     "2025": {
       "startDate": "2025-01-01",
       "endDate": "2025-12-31",
-      "total_distance": "5.94",
-      "total_duration": "00:40:11",
-      "average_pace": "6:46",
-      "total_ascent": 64,
-      "average_heartrate": "145",
-      "average_watts": "295",
-      "average_cadence": "160"
+      "total_distance": "9.11",
+      "total_duration": "01:02:08",
+      "average_pace": "6:49",
+      "total_ascent": 97,
+      "average_heartrate": "147",
+      "average_watts": "298",
+      "average_cadence": "159"
     }
   },
   "monthly": {
     "2025-07": {
       "startDate": "2025-07-01",
       "endDate": "2025-07-30",
-      "total_distance": "2.78",
-      "total_duration": "00:18:43",
-      "average_pace": "6:44",
-      "total_ascent": 30,
-      "average_heartrate": "148",
-      "average_watts": "292",
-      "average_cadence": "161"
+      "total_distance": "5.95",
+      "total_duration": "00:40:40",
+      "average_pace": "6:50",
+      "total_ascent": 63,
+      "average_heartrate": "149",
+      "average_watts": "299",
+      "average_cadence": "159"
     },
     "2025-06": {
       "startDate": "2025-06-01",
@@ -40,13 +40,13 @@
     "2025-W27": {
       "startDate": "2025-06-30",
       "endDate": "2025-07-06",
-      "total_distance": "2.78",
-      "total_duration": "00:18:43",
-      "average_pace": "6:44",
-      "total_ascent": 30,
-      "average_heartrate": "148",
-      "average_watts": "292",
-      "average_cadence": "161"
+      "total_distance": "5.95",
+      "total_duration": "00:40:40",
+      "average_pace": "6:50",
+      "total_ascent": 63,
+      "average_heartrate": "149",
+      "average_watts": "299",
+      "average_cadence": "159"
     },
     "2025-W26": {
       "startDate": "2025-06-23",
