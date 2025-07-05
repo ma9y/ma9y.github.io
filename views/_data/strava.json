@@ -15,7 +15,10 @@
     "ascent": 30,
     "elev_high": 320,
     "elev_low": 304,
-    "summary_polyline": "qdnrHsac~AJkCDWLMP@l@r@ZV`@DTP\\HNEFc@X_EPk@C_B@]BILKrAc@j@i@Xa@FQf@yBHo@Jc@DkBAa@@y@Ek@OeCMyA[cEU{E]iDCk@Dm@Jk@Pm@De@?iAJ}CLqJEyCT}EAaAH_C?EEGAD@hAExCATE\\Ad@@JIt@BvDAl@C\\@r@C\\KxGKjEOn@M|@C^CHKBIEMMM]GEO@GEMEY@QDECG?QLe@IIPI`@CNC`BC`FE~@ObBQt@_@nAQv@c@vLo@xFKj@G`AAb@Bj@DTNXTn@Hj@?~@Gv@GrA"
+    "summary_polyline": "qdnrHsac~AJkCDWLMP@l@r@ZV`@DTP\\HNEFc@X_EPk@C_B@]BILKrAc@j@i@Xa@FQf@yBHo@Jc@DkBAa@@y@Ek@OeCMyA[cEU{E]iDCk@Dm@Jk@Pm@De@?iAJ}CLqJEyCT}EAaAH_C?EEGAD@hAExCATE\\Ad@@JIt@BvDAl@C\\@r@C\\KxGKjEOn@M|@C^CHKBIEMMM]GEO@GEMEY@QDECG?QLe@IIPI`@CNC`BC`FE~@ObBQt@_@nAQv@c@vLo@xFKj@G`AAb@Bj@DTNXTn@Hj@?~@Gv@GrA",
+    "max_watts": 395,
+    "average_watts": 292.3,
+    "average_cadence": 80.4
   },
   {
     "id": 14949350612,
@@ -33,6 +36,9 @@
     "ascent": 34,
     "elev_high": 323,
     "elev_low": 304.2,
-    "summary_polyline": "ydnrHe_c~ATaFHUDEHCLBPR^j@LJLDP?RDd@TNAFIPcCX}CCkABYHQLIvAa@LIj@u@Lc@ZgBD]Tu@@U@aCCmBIq@KeB[_DUyEI}Bc@wDNiAR_AJ{BBqBRyJEkEPgD?qBFoA?iBTiGHe@LSLGXEPGXCFE?CMH_ARKFKLI`@An@YvFB|AAn@GdB?n@MtC@tE[rPEl@UhAI~@EFMAQOKYGGQ@KGSEc@FQASJ_@IEDITEx@C|@?xCExBU`C_@|ASn@Mv@UvF?`@ErAIj@Al@u@hGMrA?h@Hj@d@hALl@@p@Eh@"
+    "summary_polyline": "ydnrHe_c~ATaFHUDEHCLBPR^j@LJLDP?RDd@TNAFIPcCX}CCkABYHQLIvAa@LIj@u@Lc@ZgBD]Tu@@U@aCCmBIq@KeB[_DUyEI}Bc@wDNiAR_AJ{BBqBRyJEkEPgD?qBFoA?iBTiGHe@LSLGXEPGXCFE?CMH_ARKFKLI`@An@YvFB|AAn@GdB?n@MtC@tE[rPEl@UhAI~@EFMAQOKYGGQ@KGSEc@FQASJ_@IEDITEx@C|@?xCExBU`C_@|ASn@Mv@UvF?`@ErAIj@Al@u@hGMrA?h@Hj@d@hALl@@p@Eh@",
+    "max_watts": 390,
+    "average_watts": 296.8,
+    "average_cadence": 79.5
   }
 ]

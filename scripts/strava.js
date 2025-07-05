@@ -102,7 +102,10 @@ async function saveToDataFile(newActivities) {
         ascent: typeof a.total_elevation_gain === "number" ? Math.round(a.total_elevation_gain) : "–",
         elev_high: a.elev_high ?? "–",
         elev_low: a.elev_low ?? "–",
-        summary_polyline: a.map?.summary_polyline || null
+        summary_polyline: a.map?.summary_polyline || null,
+        max_watts: a.max_watts ?? "-",
+        average_watts: a.average_watts ?? "-",
+        average_cadence: a.average_cadence ?? "-"
       };
     });
 
