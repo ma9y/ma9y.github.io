@@ -1,0 +1,7 @@
+{% extends "views/_layouts/base.njk" %}
+
+{% block content %}
+<div class="font-semibold">{{ date | date("DDD") }}</div>
+{{ content | safe }}
+{% include "partials/pagination.njk" %}
+{% endblock %}

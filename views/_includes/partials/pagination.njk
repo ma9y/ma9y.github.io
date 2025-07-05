@@ -1,0 +1,16 @@
+{% set previousPost = collections.micro | getPreviousCollectionItem(page) %}
+{% set nextPost = collections.micro | getNextCollectionItem(page) %}
+
+<nav class="flex justify-between font-semibold pt-4">
+    {% if previousPost %}
+    <a class="prev" href="{{ previousPost.url }}">Previous</a>
+    {% else %}
+    <span></span>
+    {% endif %}
+
+    {% if nextPost %}
+    <a class="next" href="{{ nextPost.url }}">Next</a>
+    {% else %}
+    <span></span>
+    {% endif %}
+</nav>
